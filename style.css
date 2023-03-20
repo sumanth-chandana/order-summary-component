@@ -107,23 +107,26 @@ ul>li.img{
     height: 40px;
     width: 50px;
 }
-ul>ul>li{
+ul>li>section{
     list-style-type: none;
     overflow: hidden;
     margin: 0 20px 0px -35px;
     line-height: 1.5;
 }
-ul>ul>li.type{
-    font-weight: 700;
+ul>li>section>li.type{
+    color: var(--Dark-blue);
+    font-weight: 900;
+    letter-spacing:-1px;
 }
-ul>ul>li.price{
+ul>li>section>li.price{
+    font-size: 14px;
     color: var(--Desaturated-blue);
 }
 
 li>a.change{
     color: var(--Bright-blue);
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 10px;
+    font-weight: 900;
 }
 
 li>a.change:hover{
